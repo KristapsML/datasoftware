@@ -21,16 +21,6 @@
             <span aria-hidden="true"></span>
           </a>
         </div>
-        <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-end">
-            <a class="navbar-item">Dashboard</a>
-            <a class="navbar-item">Building Overview</a>
-            <a class="navbar-item">Map View</a>
-            <a class="navbar-item">Log Out</a>
-            <a class="navbar-item">Import</a>
-            <a class="navbar-item">Export</a>
-          </div>
-        </div>
       </nav>
     </header>
   </div>
@@ -38,7 +28,7 @@
 
 <script>
 export default {
-  name: "Header"
+  name: "HeaderLanding"
 };
 </script>
 

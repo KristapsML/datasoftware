@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="map-holder">
 
       <div id="mapid"></div>
 
@@ -268,8 +268,12 @@ export default {
   display:none
 }
 
+#map-holder {
+  height: 100%;
+}
+
 #mapid {
-  height: 800px;
+  height: 100%;
 }
 
 .leaflet-bottom {

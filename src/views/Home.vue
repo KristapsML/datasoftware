@@ -33,23 +33,18 @@
           </div>
         </div>
       </section>
-    </div>
-    
-    <Interactivemap />
-    
+    </div>    
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Interactivemap from "@/components/Interactivemap.vue";
 import HeaderLanding from "../components/layout/HeaderLanding.vue";
 
 export default {
   name: "home",
   components: {
-    HeaderLanding,
-    Interactivemap
+    HeaderLanding
   }
 
 };

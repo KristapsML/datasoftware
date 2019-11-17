@@ -21,16 +21,6 @@
             <span aria-hidden="true"></span>
           </a>
         </div>
-        <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-end">
-            <router-link :to="{name: 'dashboard'}" class="navbar-item">Dashboard</router-link>
-            <router-link :to="{name: 'list'}" class="navbar-item">Building Overview</router-link>
-            <router-link :to="{name: 'map'}" class="navbar-item">Map View</router-link>
-            <router-link :to="{name: 'home'}" class="navbar-item">Log Out</router-link>
-            <router-link :to="{name: '#'}" class="navbar-item">Import</router-link>
-            <router-link :to="{name: '#'}" class="navbar-item">Export</router-link>
-          </div>
-        </div>
       </nav>
     </header>
   </div>
@@ -38,7 +28,7 @@
 
 <script>
 export default {
-  name: "Header"
+  name: "HeaderLanding"
 };
 </script>
 

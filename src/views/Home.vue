@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+  
     <HeaderLanding />
     <div class="color-split">
       <section class="section flex-centered">
@@ -33,15 +34,24 @@
         </div>
       </section>
     </div>
+    
+    <Interactivemap />
+    
   </div>
 </template>
 
 <script>
+// @ is an alias to /src
+import Interactivemap from "@/components/Interactivemap.vue";
 import HeaderLanding from "../components/layout/HeaderLanding.vue";
 
 export default {
   name: "home",
-  components: { HeaderLanding }
+  components: {
+    HeaderLanding,
+    Interactivemap
+  }
+
 };
 </script>
 

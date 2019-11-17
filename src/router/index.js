@@ -7,8 +7,11 @@ import Intro2 from '../views/Intro2.vue'
 import Intro3 from '../views/Intro3.vue'
 import List from '../views/List.vue'
 import Map from '../views/Map.vue'
+import VueApexCharts from 'vue-apexcharts'
 
 Vue.use(VueRouter)
+Vue.use(VueApexCharts)
+Vue.component('apexchart', VueApexCharts)
 
 const routes = [{
     path: '/',

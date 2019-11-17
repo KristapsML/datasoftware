@@ -11,7 +11,16 @@
       <div class="column has-border">
         <PieChart />
       </div>
-      <div class="column">3</div>
+      <div class="column">
+        <h4 class="is-4 subtitle">High Priority</h4>
+        <ol>
+          <li>Feil berg 16, 4700 Næstved - Score of 83</li>
+          <li>Krøners Hold 83, 4700 Næstved - Score of 73</li>
+          <li>Nordlus øster 11, 4700 Næstved - Score of 72</li>
+          <li>Skibshimmel vej 17, 4700 Næstved - Score of 69</li>
+          <li>Bagt holms stræde 17, 4700 Næstved - Score of 68</li>
+        </ol>
+      </div>
     </div>
     <div class="columns">
       <div class="column centered">
@@ -21,7 +30,16 @@
       <div class="column has-border">
         <LineGraph />
       </div>
-      <div class="column">3</div>
+      <div class="column">
+        <h4 class="is-4 subtitle">Quickly Rising</h4>
+        <ol>
+          <li>Korslede hede 28, 4700 Næstved - 29 points up from last year</li>
+          <li>Soldrevet 19, 4700 Næstved - 25 points up from last year</li>
+          <li>Solsorts ale 37, 4700 Næstved - 21 points up from last year</li>
+          <li>Bros lum 10, 4700 Næstved - 20 points up from last year</li>
+          <li>Faladør hvid gade 3, 4700 Næstved - 18 points up from last year</li>
+        </ol>
+      </div>
     </div>
     <div class="columns">
       <div class="column centered">
@@ -29,7 +47,16 @@
         <h3 class="is-5 subtitle">Degradation compared to last year</h3>
       </div>
       <div class="column hide-column"></div>
-      <div class="column">3</div>
+      <div class="column">
+        <h4 class="is-4 subtitle">Low Priority</h4>
+        <ol>
+          <li>Varrsten orange 28, 4700 Næstved - 12</li>
+          <li>Sølv torvet 99, 4700 Næstved - 13</li>
+          <li>Blåhast 42, 4700 Næstved - 15</li>
+          <li>Hestevænget 85, 4700 Næstved - 18</li>
+          <li>Halv-brog først 20, 4700 Næstved - 19</li>
+        </ol>
+      </div>
     </div>
   </div>
 </template>
@@ -94,5 +121,9 @@ export default {
 
 .hide-column {
   background: none;
+}
+
+ol {
+  margin-left: 7%;
 }
 </style>

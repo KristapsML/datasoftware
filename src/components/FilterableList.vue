@@ -168,3 +168,24 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+table {
+  width: 100%;
+}
+#list {
+  display: block;
+}
+
+tr:nth-child(even) {
+  background: #f4f3f3;
+}
+
+thead {
+  background: #707070;
+}
+
+a {
+  color: #fff;
+}
+</style>

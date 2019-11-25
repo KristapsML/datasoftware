@@ -5,32 +5,6 @@
     <div class="column is-3">
       <div id="sidebar">
         <!-- Button -->
-       <div id="down"> 
-      <p>Download House Profile</p>
-       <button class="button1">Export All</button>
-      </div>
-        <!-- Button -->
-
-       <div id="down1">
-       <button class="button2">Export Selected</button>
-      </div>
-      <!-- Search -->
-<div id="down"> 
-      <p>Compare Selected</p>
-       <button class="button3">Compare</button>
-      </div>
-       <div id="down"> 
-      <p>View data by</p>
-       <button class="button4">Filter Search</button>
-       <button class="button5">Map</button>
-      </div>
-        <!-- Button -->
-
-       
-     
-      <!-- Search -->
-      <div id="search">
-=======
         <div id="down">
           <p>Download House Profile</p>
           <button>Export All</button>
@@ -57,7 +31,6 @@
 
         <!-- Search -->
         <div id="search">
-
           <p>Street Name</p>
           <input type="text" placeholder="Enter street name.." />
         </div>
@@ -148,79 +121,6 @@
     <div class="column is-9">
       <List />
     </div>
-    
-    <div id="cond">
-      <h1>Condition points</h1>
-     
-      <div id="holder">
-          <p>From</p>
-      <input type="text" placeholder="">
-      <div id="line">
-      <p> - </p>
-      </div>
-      <div id="line2">
-        <p>To</p>
-        <input type="text" placeholder="">
-      </div>
-
-    </div>
-    <div id="cond">
-      <h1>Energy points</h1>
-    <div id="holder">
-          <p>From</p>
-      <input type="text" placeholder="">
-      <div id="line">
-      <p> - </p>
-      </div>
-      <div id="line2">
-        <p>To</p>
-        <input type="text" placeholder="">
-      </div>
-      </div>
-      </div>
-      <div id="cond">
-      <h1>Helpdesk points</h1>
-    <div id="holder">
-          <p>From</p>
-      <input type="text" placeholder="">
-      <div id="line">
-      <p> - </p>
-      </div>
-      <div id="line2">
-        <p>To</p>
-        <input type="text" placeholder="">
-      </div>
-      </div>
-      </div>
-      <div id="cond">
-      <h1>Total points</h1>
-    <div id="holder">
-          <p>From</p>
-      <input type="text" placeholder="">
-      <div id="line">
-      <p> - </p>
-      </div>
-      <div id="line2">
-        <p>To</p>
-        <input type="text" placeholder="">
-      </div>
-      </div>
-      </div>
-
-      <div id="container">
-        <button class="button6">Filter Search</button>
-      </div>
-
-      <div id="container1">
-      <button class="button7">Reset Filter</button>
-      </div>
-
-
-
-
-
-  </div>
-  </div>
   </div>
   <head></head>
 </div>
@@ -341,83 +241,12 @@
   margin-top: 5px;
 }
 
-.button {
-  padding:5px 5px 5px 5px;
-  margin-left: 100px;
+#button {
+  margin-left: 110px;
   margin-top: 20px;
-  background-color: #008EE0 ;
-  border: none;
-  color:white;
-  font-family:proxima-nova, sans-serif;
-  
-}
-.button1{
-  padding:5px 5px 5px 5px;
-  margin-left: 24px;
-  margin-top: 15px;
-  background-color: #008EE0 ;
-  border: none;
-  color:white;
-  font-family:proxima-nova, sans-serif;
-}
-.button2{
-  padding:5px 5px 5px 5px;
-  margin-left: 15px;
-  margin-top:px;
-  background-color: #008EE0 ;
-  border: none;
-  color:white;
-  font-family:proxima-nova, sans-serif;
-}
-
-.button3 {
-  padding:5px 5px 5px 5px;
-  margin-left: 24px;
-  background-color: #008EE0 ;
-  border: none;
-  color:white;
-  font-family:proxima-nova, sans-serif;
-}
-
-.button4 {
-  padding:5px 5px 5px 5px;
-  margin-left: 15px;
-  margin-top:px;
-  background-color: #008EE0 ;
-  border: none;
-  color:white;
-  font-family:proxima-nova, sans-serif;
-}
-.button5{
-  padding:5px 5px 5px 5px;
-  margin-left: 50px;
-  background-color: #008EE0 ;
-  border: none;
-  color:white;
-  font-family:proxima-nova, sans-serif;
-}
-.button6{
-  margin-top: 15px;
-  padding:5px 5px 5px 5px;
-  margin-left: 115px;
-  background-color:green ;
-  border: none;
-  color:white;
-  font-family:proxima-nova, sans-serif;
-}
-.button7{
-  padding:5px 5px 5px 5px;
-  margin-left: 117.5px;
-  margin-top:10px;
-  background-color:red;
-  border: none;
-  color:white;
-  font-family:proxima-nova, sans-serif;
-
 }
 #button1 {
   margin-left: 112px;
-
 }
 
 .column {

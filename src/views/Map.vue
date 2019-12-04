@@ -3,7 +3,6 @@
     <Header />
 
     <Interactivemap />
-
   </div>
 </template>
 
@@ -17,20 +16,20 @@ export default {
   components: {
     Header,
     Interactivemap
-    }
+  }
 };
 </script>
 
 <style lang="scss">
-
-html, body, #app {
-    min-height: 100% !important;
-    height: 100%;
+html,
+body,
+#app {
+  min-height: 100% !important;
+  height: 100%;
 }
 
-.about{
-  position:relative;
-  height:100%;
+.about {
+  position: relative;
+  height: 100%;
 }
-
 </style>

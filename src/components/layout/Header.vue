@@ -23,6 +23,7 @@
         </div>
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-end">
+            <router-link :to="{name: 'settings'}" class="navbar-item">Settings</router-link>
             <router-link :to="{name: 'dashboard'}" class="navbar-item">Dashboard</router-link>
             <router-link :to="{name: 'list'}" class="navbar-item">Building Overview</router-link>
             <router-link :to="{name: 'map'}" class="navbar-item">Map View</router-link>

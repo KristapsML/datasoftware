@@ -17,20 +17,6 @@ const routes = [{
     path: '/dashboard',
     name: 'dashboard',
     component: () => import( /* webpackChunkName: "dashboard" */ '../views/Dashboard.vue')
-  }, {
-    path: '/intro1',
-    name: 'intro1',
-    component: () => import( /* webpackChunkName: "intro1" */ '../views/Intro1.vue')
-  },
-  {
-    path: '/intro2',
-    name: 'intro2',
-    component: () => import( /* webpackChunkName: "intro2" */ '../views/Intro2.vue')
-  },
-  {
-    path: '/intro3',
-    name: 'intro3',
-    component: () => import( /* webpackChunkName: "intro3" */ '../views/Intro3.vue')
   },
   {
     path: '/list',
@@ -41,6 +27,11 @@ const routes = [{
     path: '/map',
     name: 'map',
     component: () => import( /* webpackChunkName: "map" */ '../views/Map.vue')
+  },
+  {
+    path: '/settings',
+    name: 'settings',
+    component: () => import( /* webpackChunkName: "settings" */ '../views/Settings.vue')
   }
 
 

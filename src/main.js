@@ -4,9 +4,14 @@ import router from "./router";
 import "./registerServiceWorker";
 import "./../node_modules/bulma/css/bulma.css";
 import SortedTablePlugin from "../node_modules/vue-sorted-table";
-
-import { Icon } from "leaflet";
+import {
+  Icon
+} from "leaflet";
 import "leaflet/dist/leaflet.css";
+import {
+  BulmaAccordion,
+  BulmaAccordionItem
+} from 'vue-bulma-accordion';
 
 Vue.use(SortedTablePlugin);
 

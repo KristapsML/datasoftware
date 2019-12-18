@@ -47,6 +47,7 @@
       </div>
       <div class="column is-offset-1 is-5">
         <h2 class="title is-4">Adjust severity values</h2>
+        <Accordion />
       </div>
     </div>
   </div>
@@ -54,10 +55,15 @@
 
 <script>
 import Header from "../components/layout/Header.vue";
+import Accordion from "../components/Accordion.vue";
+import { BulmaAccordion, BulmaAccordionItem } from "vue-bulma-accordion";
 export default {
   name: "settings",
   components: {
-    Header
+    Header,
+    Accordion,
+    BulmaAccordion,
+    BulmaAccordionItem
   }
 };
 </script>

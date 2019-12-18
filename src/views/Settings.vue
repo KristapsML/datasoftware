@@ -38,9 +38,9 @@
           <div class="colorgrades">
             <h2 class="title is-6">New values after</h2>
             <ul>
-              <li>>= Y</li>
-              <li>X - Y</li>
-              <li>Y = <</li>
+              <li>Green >= Y</li>
+              <li>Yellow X - Y</li>
+              <li>Red Y = <</li>
             </ul>
           </div>
         </div>
